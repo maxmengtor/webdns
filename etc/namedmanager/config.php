@@ -17,7 +17,7 @@
 $config["db_host"] = "localhost";			// hostname of the MySQL server
 $config["db_name"] = "namedmanager";				// database name
 $config["db_user"] = "namedmanager";				// MySQL user
-$config["db_pass"] = "a6u1tayurq3";				// MySQL password (if any)
+$config["db_pass"] = "r3jgg825prb";				// MySQL password (if any)
 
 
 /*

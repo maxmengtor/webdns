@@ -1,3 +1,5 @@
-May 14 00:54:24 cb5f75864adb crond[104]: (CRON) INFO (Syslog will be used instead of sendmail.)
-May 14 00:54:24 cb5f75864adb crond[104]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 17% if used.)
-May 14 00:54:24 cb5f75864adb crond[104]: (CRON) INFO (running with inotify support)
+May 30 15:16:23 1ea786539a1e crond[108]: (CRON) INFO (Syslog will be used instead of sendmail.)
+May 30 15:16:23 1ea786539a1e crond[108]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 1% if used.)
+May 30 15:16:23 1ea786539a1e crond[108]: (CRON) INFO (running with inotify support)
+May 30 15:17:01 1ea786539a1e CROND[622]: (root) CMD (php -q /usr/share/namedmanager/bind/namedmanager_bind_configwriter.php >> /var/log/namedmanager_bind_configwriter)
+May 30 15:17:01 1ea786539a1e CROND[623]: (apache) CMD (cd /usr/share/namedmanager/htdocs/include/cron/; php -q route53.php >> /var/log/namedmanager/cron-route53 2>&1)
