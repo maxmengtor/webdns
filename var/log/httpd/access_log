@@ -1,0 +1,2 @@
+127.0.0.1 - - [30/May/2021:15:17:01 -0400] "GET /namedmanager/api/namedmanager.wsdl HTTP/1.1" 200 8350 "-" "-"
+127.0.0.1 - - [30/May/2021:15:17:01 -0400] "POST /namedmanager/api/namedmanager.php HTTP/1.1" 500 271 "-" "PHP-SOAP/5.4.16"

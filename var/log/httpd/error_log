@@ -1,4 +1,8 @@
-[Fri May 14 00:54:24.754894 2021] [suexec:notice] [pid 280] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
-[Fri May 14 00:54:24.783936 2021] [lbmethod_heartbeat:notice] [pid 280] AH02282: No slotmem from mod_heartmonitor
-[Fri May 14 00:54:24.804547 2021] [mpm_prefork:notice] [pid 280] AH00163: Apache/2.4.6 () OpenSSL/1.0.2k-fips PHP/5.4.16 configured -- resuming normal operations
-[Fri May 14 00:54:24.804928 2021] [core:notice] [pid 280] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun May 30 15:16:35.032749 2021] [suexec:notice] [pid 581] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun May 30 15:16:35.063417 2021] [lbmethod_heartbeat:notice] [pid 581] AH02282: No slotmem from mod_heartmonitor
+[Sun May 30 15:16:35.132543 2021] [mpm_prefork:notice] [pid 581] AH00163: Apache/2.4.6 () OpenSSL/1.0.2k-fips PHP/5.4.16 configured -- resuming normal operations
+[Sun May 30 15:16:35.132949 2021] [core:notice] [pid 581] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun May 30 15:17:01.384260 2021] [:error] [pid 586] [client 127.0.0.1:45952] PHP Notice:  Undefined index: auth_server in /usr/share/namedmanager/htdocs/api/namedmanager.php on line 35
+[Sun May 30 15:17:01.384637 2021] [:error] [pid 586] [client 127.0.0.1:45952] PHP Notice:  Undefined index: auth_online in /usr/share/namedmanager/htdocs/api/namedmanager.php on line 36
+[Sun May 30 15:17:01.384835 2021] [:error] [pid 586] [client 127.0.0.1:45952] PHP Notice:  Undefined index: auth_admin in /usr/share/namedmanager/htdocs/api/namedmanager.php on line 37
+[Sun May 30 15:17:01.385070 2021] [:error] [pid 586] [client 127.0.0.1:45952] PHP Notice:  Undefined index: auth_group in /usr/share/namedmanager/htdocs/api/namedmanager.php on line 38
